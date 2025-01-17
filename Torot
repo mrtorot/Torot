@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torot - The Card Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Torot</h1>
+    <p>The ultimate card game of speed and strategy.</p>
+  </header>
+
+  <main>
+    <section id="rules">
+      <h2>How to Play</h2>
+      <p>Create a sequence of cards (2 to Ace) in order and suit faster than your opponent!</p>
+      <ul>
+        <li>Single-player: Play against the AI.</li>
+        <li>Multiplayer: Compete with friends online!</li>
+      </ul>
+    </section>
+
+    <section id="game-options">
+      <h2>Start Playing</h2>
+      <button id="single-player-btn">Single Player</button>
+      <button id="multiplayer-btn">Multiplayer</button>
+    </section>
+
+    <section id="game-area" style="display: none;">
+      <h2>Game in Progress</h2>
+      <div id="game-board"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Torot. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
